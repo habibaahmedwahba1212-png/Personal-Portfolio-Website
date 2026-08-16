@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habiba Ahmed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Habiba<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active" data-key="nav-home">Home</a></li>
+                <li><a href="about.html" data-key="nav-about">About</a></li>
+                <li><a href="skills.html" data-key="nav-skills">Skills</a></li>
+                <li><a href="projects.html" data-key="nav-projects">Projects</a></li>
+                <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="lang-btn">عربي</button>
+    </header>
+
+    <main class="home-wrapper">
+        <!-- Main Hero Section -->
+        <section class="hero-container">
+            <div class="hero-text">
+                <div class="hero-badge" data-key="hero-badge">🎓 Computer & Programming Engineer</div>
+                <h1><span data-key="hero-hi">Hi, I'm</span> <span class="highlight">Habiba Ahmed</span></h1>
+                <h2 data-key="hero-title">Frontend Developer & Data Analyst</h2>
+                
+                <p class="hero-desc">
+                    <span data-key="hero-desc-1">Computer & Programming Engineering Graduate from Misr University for Science & Technology (MUST).</span> <br>
+                    <span data-key="hero-desc-2">Passionate about building modern web applications, data analytics, and intelligent systems.</span>
+                </p>
+
+                <div class="hero-actions">
+                    <a href="projects.html" class="btn" data-key="btn-projects">View Projects</a>
+                    <a href="contact.html" class="btn-outline-lg" data-key="btn-contact">Contact Me</a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn">💼 LinkedIn</a>
+                    <a href="https://github.com" target="_blank" title="GitHub">🐙 GitHub</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="img-blob">
+                    <img src="images/profile.jpg" alt="Habiba Ahmed" onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=Habiba'">
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الخدمات والتميز (What I Do) -->
+        <section class="services-section">
+            <h2 data-key="services-title">What I Do</h2>
+            <p class="section-subtitle" data-key="services-sub">Bridging the gap between clean code and data insights</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 data-key="s1-title">Frontend Development</h3>
+                    <p data-key="s1-desc">Designing responsive, accessible, and user-friendly web interfaces using modern CSS and JavaScript frameworks.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 data-key="s2-title">Data Analytics & BI</h3>
+                    <p data-key="s2-desc">Analyzing relational databases, creating structured SQL queries, and designing interactive Power BI dashboards.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3 data-key="s3-title">Intelligent Systems</h3>
+                    <p data-key="s3-desc">Integrating data models and web systems to deliver functional, real-world engineering solutions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Habiba Ahmed. <span data-key="footer-rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

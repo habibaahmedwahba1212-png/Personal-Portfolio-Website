@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Habiba Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Habiba<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-key="nav-home">Home</a></li>
+                <li><a href="about.html" class="active" data-key="nav-about">About</a></li>
+                <li><a href="skills.html" data-key="nav-skills">Skills</a></li>
+                <li><a href="projects.html" data-key="nav-projects">Projects</a></li>
+                <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="lang-btn">عربي</button>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-page">
+        <h2 data-key="about-title">About Me</h2>
+        <p class="section-subtitle" data-key="about-sub">Education, Background & Training Certificates</p>
+
+        <div class="about-container">
+            <!-- Education Box -->
+            <div class="about-box">
+                <h3 data-key="edu-title">🎓 Education</h3>
+                <p><strong data-key="degree-title">B.Sc. in Computer & Programming Engineering</strong></p>
+                <p data-key="university-name">Misr University for Science & Technology (MUST)</p>
+                <p><em><span data-key="grad-label">Graduation Year:</span> 2026</em></p>
+            </div>
+
+            <!-- Focus Areas Box -->
+            <div class="about-box">
+                <h3 data-key="spec-title">💡 Core Specialization</h3>
+                <p data-key="spec-desc">Focused on Frontend Development, Web Technologies, Database Management, and Business Intelligence / Data Analytics.</p>
+            </div>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="certifications-section">
+            <h2 style="margin-top: 50px;" data-key="cert-section-title">📜 Practical Training & Certifications</h2>
+            <div class="cert-grid">
+                
+                <!-- Certificate 1: WE -->
+                <div class="cert-card">
+                    <a href="images/we-cert.jpeg" target="_blank" title="Click to view full certificate">
+                        <div class="cert-img-container">
+                            <img src="images/we-cert.jpeg" alt="WE Big Data Certificate" onerror="this.style.display='none'">
+                        </div>
+                    </a>
+                    <h4 data-key="c1-title">Big Data Analytics</h4>
+                    <p class="cert-issuer" data-key="c1-issuer">🏢 Telecom Egypt (WE)</p>
+                    <p data-key="c1-desc">Hands-on training covering Big Data concepts, data processing, and analytical frameworks.</p>
+                </div>
+
+                <!-- Certificate 2: AOI Computer Vision & IoT -->
+                <div class="cert-card">
+                    <a href="images/aoi-iot-cert.jpeg" target="_blank" title="Click to view full certificate">
+                        <div class="cert-img-container">
+                            <img src="images/aoi-iot-cert.jpeg" alt="AOI Computer Vision Certificate" onerror="this.style.display='none'">
+                        </div>
+                    </a>
+                    <h4 data-key="c2-title">Computer Vision & IoT</h4>
+                    <p class="cert-issuer" data-key="c2-issuer">🏛️ AOI Academy (Arab Organization for Industrialization)</p>
+                    <p data-key="c2-desc">Practical application of Computer Vision techniques and Internet of Things architectures.</p>
+                </div>
+
+                <!-- Certificate 3: AOI Data Com Network -->
+                <div class="cert-card">
+                    <a href="images/aoi-network-cert.jpeg" target="_blank" title="Click to view full certificate">
+                        <div class="cert-img-container">
+                            <img src="images/aoi-network-cert.jpeg" alt="AOI Data Com Network Certificate" onerror="this.style.display='none'">
+                        </div>
+                    </a>
+                    <h4 data-key="c3-title">Data Communication Network</h4>
+                    <p class="cert-issuer" data-key="c3-issuer">🏛️ AOI Academy (Arab Organization for Industrialization)</p>
+                    <p data-key="c3-desc">Fundamentals of data communication protocols, network topologies, and data transfer systems.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Habiba Ahmed. <span data-key="footer-rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
